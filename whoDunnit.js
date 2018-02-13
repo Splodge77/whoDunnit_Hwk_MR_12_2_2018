@@ -78,10 +78,10 @@ var outerFunction = function() {
   var murderer = 'marc';
 
   var innerFunction = function() {
-    murderer = 'valerie';
+    murderer = 'valerie'; // only has access to var murderer inside outerFunction
   }
-
   innerFunction();
+  console.log(murderer);
 }
 
 outerFunction();
