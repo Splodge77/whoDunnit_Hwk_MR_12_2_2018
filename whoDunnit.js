@@ -19,6 +19,8 @@ console.log(result());
 
 // 3 - score overwritten
 
+//------------------------
+
 var myAnimals = ['Chickens', 'Cats', 'Rabbits'];
 
 var listAnimals = function() {
@@ -34,6 +36,8 @@ listAnimals();
 // 1: Dogs
 // 2: Lions
 
+//------------------------
+
 var suspectOne = 'Jay';
 var suspectTwo = 'Val';
 var suspectThree = 'Keith';
@@ -47,6 +51,8 @@ var allSuspects = function() {
 
 allSuspects();
 console.log( 'Suspect three is:' + suspectThree ); // Keith
+
+//-------------------------
 
 var detective = {
   name : 'Ace Ventura',
@@ -64,6 +70,8 @@ var detectiveInfo = function() {
 
 console.log(detectiveInfo()); // Poirot
 
+//--------------------------
+
 var murderer = 'rick';
 
 var outerFunction = function() {
@@ -78,4 +86,4 @@ var outerFunction = function() {
 
 outerFunction();
 console.log('the murderer is ', murderer); // rick
-murderer is the only thing called in console.log() and is not overwritten beforehand
+// murderer is the only thing called in console.log() and is not overwritten beforehand
